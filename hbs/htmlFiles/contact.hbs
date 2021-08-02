@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
+    <style>
+        #contact{
+            color: rgb(173, 22, 22);
+        }
+    </style>
+    <title>Contact</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="list">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li id="contact"><a href="/contact">Contact</a></li>
+            <li><a href="/services">Services</a></li>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h1>CONTACT US</h1>
+        <form action="/contact" method="POST">
+            <div class="contactus">
+                <input name="Name" class="contactform" type="text" placeholder="Enter Your Name">
+                <input name="Phoneno" class="contactform" type="text" placeholder="Enter Your PhoneNo">
+                <input name="Email" class="contactform" type="text" placeholder="Enter Your Email">
+                <textarea name="Details" class="contactform" id="" cols="30" rows="10" placeholder="More Details"></textarea>
+                <button class="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

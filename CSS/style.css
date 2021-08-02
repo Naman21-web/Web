@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(45deg, grey ,white);    
+}
+
+.navbar{
+    display: flex;
+    background: rgba(255,0,0,0.05);
+    height: 40px;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    margin: auto;
+}
+
+.list li{
+    padding: 10px;
+}
+
+.list li a{
+    text-decoration: none;
+}
+
+.list li:hover{
+    cursor: pointer;
+    color: rgb(173, 22, 22);
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+}
+
+.welcome h1{
+    text-transform: uppercase;
+    font-size: 55px;
+}
+
+.welcome span{
+    font-size: 20px;
+}
+
+.welcome p{
+    margin: 0px 424px;
+    font-size: 16px;
+}
+
+
+/*About*/
+
+
+.about{
+    font-size: 20px;
+    margin: 40px 50px;
+    color: white;
+}
+
+.clients h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.detailsOfClients{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
+
+.details{
+    /*border: 2px solid red;*/
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg,#304c1259,black);
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+
+/*Contact*/
+
+
+.contact h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    color: white;
+}
+
+.contactus{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactform{
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.submit{
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+/*Services*/
+
+
+.services h1{
+    margin: 30px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.servicebox{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 20px 40px;
+    color: white;
+}
+
+.servicebox h3{
+    font-size: 30px;
+    color: black;
+}
+
